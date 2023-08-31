@@ -1,6 +1,6 @@
 class HelloMessage extends React.Component {
     render() {
-        return React.creatElement(
+        return React.createElement(
             "div",
             null,
             "Hello",
@@ -9,6 +9,6 @@ class HelloMessage extends React.Component {
         );
     }
 }
-ReacrDOM.render(React.createElement(HelloMessage,
+ReactDOM.render(React.createElement(HelloMessage,
     { name: "WestCliff"}),
     document.getElementById('hello-example'));
